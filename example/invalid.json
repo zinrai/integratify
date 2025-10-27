@@ -1,0 +1,11 @@
+{
+  "name": "web-server",
+  "port": 99999,
+  "enabled": true,
+  "environment": "testing",
+  "replicas": 0,
+  "resources": {
+    "cpu": "500m",
+    "memory": "512Mi"
+  }
+}

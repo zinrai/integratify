@@ -1,0 +1,11 @@
+{
+  "name": "web-server",
+  "port": 8080,
+  "enabled": true,
+  "environment": "production",
+  "replicas": 3,
+  "resources": {
+    "cpu": "500m",
+    "memory": "512Mi"
+  }
+}
